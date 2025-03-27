@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eclipse Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">EclipseTimer</h1>
+        <div class="stopwatch-container">
+            <div class="stopwatch">
+                <svg class="progress-ring" viewBox="0 0 100 100">
+                    <circle cx="50" cy="50" r="47" />
+                </svg>
+                <div class="time" id="display">
+                    <span id="hours">00</span>:<span id="minutes">00</span>:<span id="seconds">00</span>:<span id="milliseconds">00</span>
+                </div>
+            </div>
+            <div class="controls">
+                <button id="startPauseBtn" onclick="startPause()">Start</button>
+                <button id="lapBtn" onclick="recordLap()">Lap</button>
+                <button id="resetBtn" onclick="reset()">Reset</button>
+            </div>
+        </div>
+        <div class="laps" id="laps"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
