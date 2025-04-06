@@ -25,3 +25,6 @@ Implements stopwatch logic (start, pause, reset, and lap tracking).
 Uses setInterval() for precise time updates.
 Dynamically updates UI elements and stores lap times.
 Built with clean and efficient code, Eclipse Timer ensures a seamless and visually appealing time-tracking experience! 🚀
+
+### USE WISELY (time)
+https://navneet-pratap-byte.github.io/ECLIPSETIMER/
